@@ -1,7 +1,3 @@
----
----
----
-
 # Webinaires INTEFP : L'intelligence artificielle va-t-elle tuer le monde du travail ?
 
 L'INTEFP propose une série de webinaires dédiés à sensibilisation à aux enjeux de la donnée et de l'intelligence artificielle dans le monde du travail.
