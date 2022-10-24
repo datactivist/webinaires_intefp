@@ -15,7 +15,7 @@ output:
     anchor_sections: false
 params:
   event: INTEFP
-  slug: webinaires_intefp/
+  slug: dataculture/
 editor_options: 
   markdown: 
     wrap: 72
@@ -25,7 +25,7 @@ layout: true
 
 `r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'></center></span></div>")`
 
-------------------------------------------------------------------------
+---
 class: center, middle
 
 Ces slides en ligne :
@@ -56,7 +56,7 @@ class: inverse, center, middle
 ## Data, big data, open data...
 
 ---
-class:middle, center
+class: middle, center
 ## Échauffement :
 ### 5 minutes, 20 données
 
