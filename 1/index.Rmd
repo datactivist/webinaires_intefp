@@ -42,47 +42,48 @@ BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
 ![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
 
 ---
-## Plan du cours
+## Plan de la session
 
-**Session 1** : culture des données. Data, big data, open data…
-
-**Session 2** : les données de la culture - études de cas
 ---
 
 class: inverse, center, middle
 
-# .red[Culture des données]
+# .red[Webinaire 1]
 
-## Data, big data, open data...
+## Données ? IA ? J’en utilise déjà sans le savoir
 
 ---
 class: middle, center
 ## Échauffement :
-### 5 minutes, 20 données
+### 3 minutes, 5 données
 
 Vous avez 5 minutes
 
-Vous devez trouver 20 données dans votre environnement immédiat
-
-Pas de recours aux écrans !
+Vous devez trouver 5 données dans votre environnement immédiat
 
 .footnote[[source](http://infolabs.io/5-minutes-20-donnees)]
 ---
 
-class:center,inverse, middle \# Qu'est-ce \# qu'une donnée ?
-31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AFoAUQBBAHgAQQBEAGcAQQBNAFEAQQA1AEEARABZAEEATQBBAEEAMQBBAEMAMABBAE0AQQBCAGgAQQBHAE0AQQBaAEEAQQB0AEEARABRAEEAWgBnAEIAaABBAEcAVQBBAEwAUQBBADQAQQBHAEkAQQBPAFEAQQA1AEEAQwAwAEEATwBRAEIAagBBAEQARQBBAFkAZwBBADMAQQBHAEkAQQBaAEEAQQAzAEEARwBNAEEATQBBAEIAbQBBAEQARQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQBRAEEAMwBBAEQAawBBAE4AQQBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBMAFEAQQB0AEEAQwAwAEEAQwBnAEIAagBBAEcAdwBBAFkAUQBCAHoAQQBIAE0AQQBPAGcAQgBqAEEARwBVAEEAYgBnAEIAMABBAEcAVQBBAGMAZwBBAHMAQQBHAGsAQQBiAGcAQgAyAEEARwBVAEEAYwBnAEIAegBBAEcAVQBBAEwAQQBBAGcAQQBHADAAQQBhAFEAQgBrAEEARwBRAEEAYgBBAEIAbABBAEEAbwBBAEkAdwBCAEUAQQBDAGMAQQBZAFEAQgB3AEEASABJAEEANgBBAEIAegBBAEMAQQBBAGQAZwBCAHYAQQBIAFUAQQBjAHcAQQBnAEEARAA4AEEAQwBnAEEAdABBAEMAMABBAEwAUQBBAD0ACgBzAHUAZgBmAGkAeAA6AA==:31b8e172-b470-440e-83d8-e6b185028602
+class:center,inverse, middle 
+
+# Qu'est-ce qu'une donnée ?
+
+---
 
 # Le censeur à Rome, ancêtre de la statistique
 
 .center[.reduite3[![](img/asterix.png)]]
 
 .footnote[Source : *Asterix chez les pictes*, © Albert René 2013]
-31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AFoAUQBBAHgAQQBEAGcAQQBNAFEAQQA1AEEARABZAEEATQBBAEEAMQBBAEMAMABBAE0AQQBCAGgAQQBHAE0AQQBaAEEAQQB0AEEARABRAEEAWgBnAEIAaABBAEcAVQBBAEwAUQBBADQAQQBHAEkAQQBPAFEAQQA1AEEAQwAwAEEATwBRAEIAagBBAEQARQBBAFkAZwBBADMAQQBHAEkAQQBaAEEAQQAzAEEARwBNAEEATQBBAEIAbQBBAEQARQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQBnAEEAdwBBAEQAQQBBAE0AZwBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBMAFEAQQB0AEEAQwAwAEEAQwBnAEEAagBBAEMAQQBBAFQAQQBCAGwAQQBDAEEAQQBZAHcAQgBsAEEARwA0AEEAYwB3AEIAbABBAEgAVQBBAGMAZwBBAGcAQQBPAEEAQQBJAEEAQgBTAEEARwA4AEEAYgBRAEIAbABBAEMAdwBBAEkAQQBCAGgAQQBHADQAQQBZAHcARABxAEEASABRAEEAYwBnAEIAbABBAEMAQQBBAFoAQQBCAGwAQQBDAEEAQQBiAEEAQgBoAEEAQwBBAEEAYwB3AEIAMABBAEcARQBBAGQAQQBCAHAAQQBIAE0AQQBkAEEAQgBwAEEASABFAEEAZABRAEIAbABBAEEAbwBBAEwAZwBCAGoAQQBHAFUAQQBiAGcAQgAwAEEARwBVAEEAYwBnAEIAYgBBAEMANABBAGMAZwBCAGwAQQBHAFEAQQBkAFEAQgBwAEEASABRAEEAWgBRAEEAegBBAEYAcwBBAEkAUQBCAGIAQQBGADAAQQBLAEEAQgBwAEEARwAwAEEAWgB3AEEAdgBBAEcARQBBAGMAdwBCADAAQQBHAFUAQQBjAGcAQgBwAEEASABnAEEATQBRAEEAdQBBAEgAQQBBAGIAZwBCAG4AQQBDAGsAQQBYAFEAQgBkAEEAQQBvAEEAQwBnAEEAdQBBAEcAWQBBAGIAdwBCAHYAQQBIAFEAQQBiAGcAQgB2AEEASABRAEEAWgBRAEIAYgBBAEMAbwBBAFEAUQBCAHoAQQBIAFEAQQBaAFEAQgB5AEEARwBrAEEAZQBBAEEAZwBBAEcATQBBAGEAQQBCAGwAQQBIAG8AQQBJAEEAQgBzAEEARwBVAEEAYwB3AEEAZwBBAEgAQQBBAGEAUQBCAGoAQQBIAFEAQQBaAFEAQgB6AEEAQwBvAEEATABBAEEAZwBBAEsAawBBAEkAQQBCAEIAQQBHAHcAQQBZAGcAQgBsAEEASABJAEEAZABBAEEAZwBBAEYASQBBAFoAUQBCAHUAQQBPAGsAQQBJAEEAQQB5AEEARABBAEEATQBRAEEAegBBAEYAMABBAEMAZwBBAHQAQQBDADAAQQBMAFEAQQA9AAoAcwB1AGYAZgBpAHgAOgA=:31b8e172-b470-440e-83d8-e6b185028602
+
+---
 
 ## La statistique : outil de gouvernement et de preuve
 
 .pull-left[.middle[La statistique est à la fois :]]
-.pull-right[.reduite2[![center](./img/desrosieres1.jpg)]] ---
+.pull-right[.reduite2[![center](./img/desrosieres1.jpg)]] 
+
+---
 
 ## [Quantifier, c'est convenir puis mesurer](http://www.pressesdesmines.com/media/extrait/PourSocioHistExtr.pdf)
 
@@ -166,7 +167,7 @@ Nouvelle Gauche et les Nouveaux Communalistes sur fond de LSD et de
 recherche militaire] .pull-right[
 .reduite2[![](./img/wholeearthcatalog.jpg)]]
 
-------------------------------------------------------------------------
+---
 
 ## "Raw data" is an oxymoron
 
@@ -174,7 +175,8 @@ recherche militaire] .pull-right[
 "raw."] .pull-right[ ![](img/rawdata.jpg)]
 
 .footnote[[Source](https://mitpress.mit.edu/books/raw-data-oxymoron)]
-31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AFoAUQBBAHgAQQBEAGcAQQBNAFEAQQA1AEEARABZAEEATQBBAEEAMQBBAEMAMABBAE0AQQBCAGgAQQBHAE0AQQBaAEEAQQB0AEEARABRAEEAWgBnAEIAaABBAEcAVQBBAEwAUQBBADQAQQBHAEkAQQBPAFEAQQA1AEEAQwAwAEEATwBRAEIAagBBAEQARQBBAFkAZwBBADMAQQBHAEkAQQBaAEEAQQAzAEEARwBNAEEATQBBAEIAbQBBAEQARQBBAAoAcABvAHMAaQB0AGkAbwBuADoATgBnAEEAMwBBAEQAUQBBAE8AUQBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBMAFEAQQB0AEEAQwAwAEEAQwBnAEIAagBBAEcAdwBBAFkAUQBCAHoAQQBIAE0AQQBPAGcAQgBwAEEARwA0AEEAZABnAEIAbABBAEgASQBBAGMAdwBCAGwAQQBDAHcAQQBJAEEAQgB0AEEARwBrAEEAWgBBAEIAawBBAEcAdwBBAFoAUQBBAHMAQQBDAEEAQQBZAHcAQgBsAEEARwA0AEEAZABBAEIAbABBAEgASQBBAEMAZwBBAGoAQQBDAEEAQQBWAGcAQgBsAEEASABJAEEAYwB3AEEAZwBBAEgAVQBBAGIAZwBCAGwAQQBDAEEAQQBaAEEARABwAEEARwBZAEEAYQBRAEIAdQBBAEcAawBBAGQAQQBCAHAAQQBHADgAQQBiAGcAQQBnAEEARwBRAEEAWgBRAEIAegBBAEMAQQBBAFoAQQBCAHYAQQBHADQAQQBiAGcARABwAEEARwBVAEEAYwB3AEEASwBBAEMAMABBAEwAUQBBAHQAQQBBAD0APQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-b470-440e-83d8-e6b185028602
+
+---
 
 ## La pyramide Data-Information-Knowledge-Wisdom
 
@@ -184,7 +186,7 @@ recherche militaire] .pull-right[
 .pull-right[Attribuée à [Russell
 Ackoff](http://en.wikipedia.org/wiki/Russell_L._Ackoff), 1989]
 
-------------------------------------------------------------------------
+---
 
 # Vers une définition
 
@@ -195,7 +197,7 @@ numbers, characters, symbols, images,sounds, electromagnetic waves, bits
 -- that constitute the **building blocks** from which information and
 knowledge are created.*]
 
-------------------------------------------------------------------------
+---
 
 # Data or capta ?
 
@@ -207,7 +209,7 @@ knowledge are created.*]
 [Kitchin,
 2014](https://books.google.fr/books?hl=fr&lr=&id=GfOICwAAQBAJ&oi=fnd&pg=PP1&dq=kitchin+data+revolution&ots=pcyfMTZh-V&sig=dQyPTL3AIN_4RdWvtBFw4VjdAa4#v=onepage&q=kitchin%20data%20revolution&f=false)
 
-------------------------------------------------------------------------
+---
 
 # Données ou obtenues ?
 
@@ -216,23 +218,31 @@ knowledge are created.*]
 
 [Bruno Latour, 1993](http://www.bruno-latour.fr/fr/node/255)
 
-------------------------------------------------------------------------
+---
 
-class:center, middle, inverse \# Données, données... quelles données ?
+class:center, middle, inverse 
 
-------------------------------------------------------------------------
+#Données, données... quelles données ?
+
+---
 
 ## Données quantitatives
 
-.pull-left[ Différents types de variables : - nominale : des catégories
-que l'on nomme avec un nom (marié/célibataire/divorcé/veuf)]
+.pull-left[Une donnée quantitative est une variable ou grandeur qui est 
+représentée par des nombres que l’on peut additionner, soustraire,
+multiplier, etc…
+]
 .pull-right[ ![](img/spread.png)]
 
-------------------------------------------------------------------------
+---
 
 ## Données qualitatives
 
-.pull-left[ Non numérique =\> texte, image, vidéo, son, musique...]
+.pull-left[Une donnée qualitative est une variable qui désigne des catégories 
+ou des niveaux. 
+Parfois, une variable catégorielle est représentée par des nombres, mais 
+les additionner (ou soustraire, multiplier, etc…) n’a pas de sens. C’est le 
+cas des numéros de départements]
 .pull-right[ ![](img/text_mining_intro_2.png)]
 
 ---
