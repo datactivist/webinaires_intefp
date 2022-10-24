@@ -1,17 +1,21 @@
-# webinaires_intefp
+---
+---
+---
 
-L'INTEFP propose une série de webinaires dédiés à la donnée et à l'intelligence artificielle dans le monde du travail.
-est un projet unique dédié à faciliter le continuum bac-3/bac+3 en Ile-de-France, regroupant 35 partenaires dont les 14 universités franciliennes pour développer de nombreuses actions à destination des lycéens, étudiants, équipes pédagogiques.
+# Webinaires INTEFP : L'intelligence artificielle va-t-elle tuer le monde du travail ?
+
+L'INTEFP propose une série de webinaires dédiés à sensibilisation à aux enjeux de la donnée et de l'intelligence artificielle dans le monde du travail.
 
 ![]()
 
-ORACCLE a confié à Datapublica dont Datactivist est membre le soin de réaliser les trois webinaires.
+L'INTEPF a confié à Datapublica (dont Datactivist est membre) le soin de réaliser le cursus des trois webinaires. Bien que les trois webinaires ont été construits dans une logique de continuité, il n’est pas indispensable de participer aux trois webinaires dans l’ordre.
 
-***
+------------------------------------------------------------------------
+
 # Programme des webinaires
 
-
-| Date | Titre (descriptif au bout du lien) | Intervenants | Supports
-| :---: | :--- | :---: | :---: | :---|
-| `JJ-MM-2022` | *[Comprendre l'open data](#comprendre-lopen-data)* et | Maëlle Fouquenet, Joël Gombin et Clément Mandron ([Datactivist](http://datactivist.coop/)) | [diaporama #1]()|
-| `JJ-MM-2022` | *[Comprendre l'open data](#comprendre-lopen-data)* et | Maëlle Fouquenet, Joël Gombin et Clément Mandron ([Datactivist](http://datactivist.coop/)) | [diaporama #1]()|
+|     Date     | Titre (descriptif au bout du lien)                       |                                        Intervenants                                        | Supports         |
+|:--------------:|:--------------------|:-----------------:|:---------------|
+| `JJ-MM-2022` | [*Données ? IA ? J’en utilise déjà sans le savoir*]()    | Maëlle Fouquenet, Joël Gombin et Clément Mandron ([Datactivist](http://datactivist.coop/)) | [diaporama #1]() |
+| `JJ-MM-2022` | [*La révolution des données dans le monde du travail*]() | Maëlle Fouquenet, Joël Gombin et Clément Mandron ([Datactivist](http://datactivist.coop/)) | [diaporama #1]() |
+| `JJ-MM-2022` | [*Les données dans votre métier, passer à l’action !*]() | Maëlle Fouquenet, Joël Gombin et Clément Mandron ([Datactivist](http://datactivist.coop/)) | [diaporama #1]() |
