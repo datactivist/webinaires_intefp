@@ -1,4 +1,5 @@
-# Webinaires INTEFP : L'intelligence artificielle va-t-elle tuer le monde du travail ?
+# Webinaires INTEFP
+## La révolution des données dans le monde du travail et dans nos métiers
 
 L'INTEFP propose une série de webinaires dédiés à sensibilisation à aux enjeux de la donnée et de l'intelligence artificielle dans le monde du travail.
 
