@@ -42,53 +42,15 @@ BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
 ![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
 
 ---
-### Plan de la session
+### Plan de la présentation participante
 
-* **Accueil** et introduction du cycle et du webinaire - **10 minutes**
+1. Qu'est-ce qu'une donnée ?
 
-* **Mise en perspective** : le chercheur **Antonio Casilli**, expert des plateformes numériques et du digital labor - **50 minutes** *- dont temps de questions-réponses de 10 minutes.*
+2. Mise en données du monde
 
-* **Présentation participante** : Les principales notions (données, intelligence artificielle et open data) et le cadre juridique par Datactivist - **50 minutes**
+3. Open data et cadre juridique
 
-
-* Temps de questions-réponses avec les participants dans le chat - **10 minutes**
-
----
-
-class: inverse, center, middle
-
-# .red[Acceuil]
-
-## Acceuil et introduction au cycle de webinaire
-
----
-
-### Mot d'acceuil de l'INTEFP
-
-**Insérer les vidéos ici...**
-
----
-
-### .red[La révolution des données] dans le monde du travail et dans nos métiers
-
-.center[![](img/cycle.png)]
-
-
----
-
-class: inverse, center, middle
-
-# .red[Mise en perspective]
-
-## Par le chercheur Antonio Casilli
-
----
-
-class: inverse, center, middle
-
-# .red[Présentation participante]
-
-## Les principales notions (données, intelligence artificielle et open data) et le cadre juridique
+4. Ceux qui mangent les données : aglorithmes, sciences de la données et intelligence articifielle
 
 ---
 class: middle, center
@@ -106,6 +68,97 @@ Vous devez trouver 5 données dans votre environnement immédiat
 class:center,inverse, middle 
 
 # Qu'est-ce qu'une donnée ?
+
+---
+
+### FYI Plan Qu'est-ce qu'une donnée ?
+
+Ne pas tenir compte des slides d'après (pas encore dans l'ordre)
+
+- Pyramide
+- Informatique
+- Kitchin
+- Capta
+- Excel
+
+### Notions
+
+- Data
+
+---
+
+class:center,inverse, middle 
+
+# La mise en données du monde
+
+---
+
+### La mise en données du monde
+
+Ne pas tenir compte des slides d'après (pas encore dans l'ordre)
+
+- Censeur
+- Dataification
+- Derosières
+- Positivisme ?
+
+### Notions
+
+- Données et statsitique
+- Data
+
+---
+
+class:center,inverse, middle 
+
+# Open data et cadre juridique
+
+---
+
+### Open data et cadre juridique
+
+Ne pas tenir compte des slides d'après (pas encore dans l'ordre)
+
+- Droit d'accès
+- Open data
+- Cadre juridique
+- RGPD
+
+### Notions
+
+- Open data
+- RGPD
+
+---
+
+
+class:center,inverse, middle 
+
+# Ceux qui mangent les données : aglorithmes, sciences de la données et intelligence articifielle
+
+---
+
+### Ceux qui mangent les données : aglorithmes, sciences de la données et intelligence articifielle
+
+Ne pas tenir compte des slides d'après (pas encore dans l'ordre)
+
+- Statistique vers data sciences
+- Algortihmes (publics)
+- Algo vs. code source
+- IA et machine learning
+
+### Notions
+
+- IA
+- Algo
+- Code source
+
+
+---
+
+class:center,inverse, middle 
+
+# Backup slides
 
 ---
 
@@ -259,133 +312,6 @@ knowledge are created.*]
 
 ---
 
-class:center, middle, inverse 
-
-#Données, données... quelles données ?
-
----
-
-## Données quantitatives
-
-.pull-left[Une donnée quantitative est une variable ou grandeur qui est 
-représentée par des nombres que l’on peut additionner, soustraire,
-multiplier, etc…
-]
-.pull-right[ ![](img/spread.png)]
-
----
-
-## Données qualitatives
-
-.pull-left[Une donnée qualitative est une variable qui désigne des catégories 
-ou des niveaux. 
-Parfois, une variable catégorielle est représentée par des nombres, mais 
-les additionner (ou soustraire, multiplier, etc…) n’a pas de sens. C’est le 
-cas des numéros de départements]
-.pull-right[ ![](img/text_mining_intro_2.png)]
-
----
-## Exemple : les annotations en text mining
-
-.reduite[![](img/annotation.png)]
----
-
-## Données structurées
-
-.pull-left[ Des données dotées d'un modèle qui définit les relations
-entre les composantes de la base de données] .pull-right[
-![](img/sql.jpeg)]
-
-------------------------------------------------------------------------
-
-## Données semi-structurées
-
-.pull-left[ Pas de modèle prédéfini : structure irrégulière,
-implicite... mais données organisées néanmoins, ensemble raisonnable de
-champs] .pull-right[ ![](img/OCDSjson.jpg)]
-
-------------------------------------------------------------------------
-
-## Données non structurées
-
-.pull-left[Pas de structure commune identifiable]
-
-.pull-right[ ![](img/structured-vs-unstructured-data.png)]
-
-------------------------------------------------------------------------
-
-## Données capturées, échappées, transitoires
-
-\*\* Données capturées\*\*
-
-Observation, enquête, expérimentation, prise de notes, senseurs... =\>
-intention de générer des données
-
-\*\* Données échappées\*\*
-
-Sous-produit d'un engin ou d'un système dont la fonction première est
-autre
-
-\*\* Données transitoires\*\*
-
-Echappées qui ne sont jamais examinées, transformées ou analysées
-
----
-## Données dérivées
-
-Résultat d'un traitement ou une analyse supplémentaire de données capturées. 
-
-Exemple avec les [données de Google Maps](https://www.justinobeirne.com/google-maps-moat) : 
-
-
-![](https://static1.squarespace.com/static/54ff63f0e4b0bafce6932642/t/5a383fdb41920241ebce859d/1513635810327/3-1+-+Making+AOIs.gif?format=1500w)
----
-
-## Données dérivées
-
-.reduite2[![](./img/nasa.jpg)]
-
-------------------------------------------------------------------------
-
-##Index, attributs, métadonnées
-
-**Index**
-
-Des données permettent l'identification et la mise en relation.
-Essentielles pour enrichir les données. Exemple : SIRET.
-
-**Attributs**
-
-Des données représentent les aspects d'un phénomène, mais ne sont pas
-des index (pas identifiants uniques).
-
-**Métadonnées**
-
-Des données sur les données. Peuvent être descriptives, structurelles ou
-administratives. Exemple de standard : le [Dublin
-Core](https://fr.wikipedia.org/wiki/Dublin_Core). **Elles sont
-essentielles pour [les
-GLAM](https://archivengines.wordpress.com/2011/10/08/metadonnee-descriptive-bibliotheque-archive/),
-et la découvrabilité de leurs ressources !**
-
-------------------------------------------------------------------------
-
-## Les données crowdsourcées
-
-Des données produites par la multitude, des communs partagés et
-gouvernés par leurs producteurs
-
-Exemple : OpenStreetMap, le wiki de la carte
-
-[.reduite[![](img/OSM_EPS_20221003.png)]](https://www.openstreetmap.org/query?lat=43.52924&lon=5.43568#map=18/43.52904/5.43639)
-
----
-## Les données crowdsourcées
-
-Exemple : OpenStreetMap, le wiki de la carte
-
-
-[.reduite[![](img/OSM_EPS_mapcomplete.png)]](https://mapcomplete.osm.be/etymology.html?z=18&lat=43.53029&lon=5.436274&language=fr#way/1098891250)
 ---
 
 class:inverse, middle, center \# De l'open data au big data
