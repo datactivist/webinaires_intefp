@@ -78,7 +78,8 @@ Vous devez trouver 5 données dans votre environnement immédiat
 -------
 
 Pour ajoutez vos réponses, **rendez-vous sur ce lien** (collé dans le chat) : 
-https://www.wooclap.com/GIGQEC/
+
+### https://www.wooclap.com/GIGQEC/
 
 .footnote[[Source Infolab](http://infolabs.io/5-minutes-20-donnees)]
 
@@ -306,7 +307,20 @@ David Brooks, éditorialiste du New York Times, ["The Philosophy of Data"](https
 .footnote[Dilbert © Scott Adams]
 
 - **Avez-vous des exemples de données officielles pouvant faire l'objet de critiques ?**
---> WOOCLAP ?
+
+---
+
+class: middle, center
+## À vous de jouer !
+### Avez-vous des exemples de données officielles pouvant faire l'objet de critiques ?
+
+Vous avez 2 minutes
+
+-------
+
+Pour ajoutez vos réponses, **rendez-vous sur ce lien** (collé dans le chat) : 
+
+### https://www.wooclap.com/GIGQEC/
 
 
 ---
@@ -376,6 +390,21 @@ Rares sont donc les données publiques qui ne sont pas concernées par cette obl
 class:center, middle
 
 # Les 8 principes de l'open data
+
+---
+
+class: middle, center
+## À vous de jouer !
+### Parmi les principes qui vont s'afficher, 4 d'entre eux sont des principes de l'open data, lesquels ?
+
+Vous avez 2 minutes
+
+-------
+
+Pour ajoutez vos réponses, **rendez-vous sur ce lien** (collé dans le chat) : 
+
+### https://www.wooclap.com/GIGQEC/
+
 
 ---
 
