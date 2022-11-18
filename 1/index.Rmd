@@ -54,14 +54,15 @@ BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
 
 ---
 
-### .red[Vous avez dit présentation] participante ? 
+### .red[Vous] allez participer avec nous ! 
 
 La présentation sera ponctué de moments interactifs à travers des questions sur l'outil wooclap.
 
 .center[![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Wooclap-logo.png/220px-Wooclap-logo.png)]
 
+<br>
 
-.center.red[### On s'échauffe ?]
+### .red.center[On s'échauffe ?]
 
 
 
@@ -351,25 +352,25 @@ Une fois vos réponses ajoutées, revenez sur le webinaire !
 ---
 ## .red[Les 8 principes] de l'open data
 
-1./ **Des données complètes** : toutes les données publiques doivent être rendues disponibles dans les limites légales liées à la vie privée ou la sécurité.
+1/ **Des données complètes** : toutes les données publiques doivent être rendues disponibles dans les limites légales liées à la vie privée ou la sécurité.
 
-2./ **Des données primaires** : les données ouvertes sont telles que collectées à la source, non-agrégées avec le plus haut niveau de granularité
+2/ **Des données primaires** : les données ouvertes sont telles que collectées à la source, non-agrégées avec le plus haut niveau de granularité
 
-3./ **Des données fraiches (*timely*)** : les données doivent être disponibles dès qu'elles sont produites
+3/ **Des données fraiches (*timely*)** : les données doivent être disponibles dès qu'elles sont produites
 
-4./ **Des données accessibles** : les données doivent être utilisables par le plus grand nombre d’usagers potentiels
+4/ **Des données accessibles** : les données doivent être utilisables par le plus grand nombre d’usagers potentiels
 
 ---
 
 ## .red[Les 8 principes] de l'open data
 
-5./ **Des données exploitables par les machines** : Les données peuvent être traitées automatiquement par les machines
+5/ **Des données exploitables par les machines** : Les données peuvent être traitées automatiquement par les machines
 
-6./ **Des données non discriminatoires** : Elles peuvent être utilisées par tous sans réclamer un enregistrement préalable
+6/ **Des données non discriminatoires** : Elles peuvent être utilisées par tous sans réclamer un enregistrement préalable
 
-7./ **Des données dans un format ouvert** : Ce format ne doit pas être la propriété d'une organisation en particulier (.xls) et doit être gouverné par ses usagers (exemple : CSV)
+7/ **Des données dans un format ouvert** : Ce format ne doit pas être la propriété d'une organisation en particulier (.xls) et doit être gouverné par ses usagers (exemple : CSV)
 
-8./ **Des données dans une licence ouverte** : Idéalement dans le domaine public sinon dans une licence conforme à l'[Open Definition](https://opendefinition.org/od/2.1/en/) : Licence Ouverte (CC-BY) ou ODBL (CC-BY-SA)
+8/ **Des données dans une licence ouverte** : Idéalement dans le domaine public sinon dans une licence conforme à l'[Open Definition](https://opendefinition.org/od/2.1/en/) : Licence Ouverte (CC-BY) ou ODBL (CC-BY-SA)
 
 ---
 
