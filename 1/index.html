@@ -477,30 +477,129 @@ class:center,inverse, middle
 ]
 
 ---
+### L'explosion des données ? 
+
+La conjonction de deux mouvements :
+
+- la hausse exponentielle de la capacité à stocker et traiter des données numériques 
+- la hausse exponentielle de la volonté de collecter des données numériques
+
+Il en résulte ce qui a été appelé le "big data":
+
+- se définit par les trois V (selon la société Gartner) : "volume", "velocity", "variety" (+ "veracity" ?)
+- Kitchin ajoute l'exhaustivité, la résolution, la *scalability*
+
+---
+### L'explosion des données ? 
+
+[.reduite[.center[![](./img/moore.png)]]](http://visual.ly/infographic-about-computers)
+
+???
+
+Loi de Moore
+
+---
+### L'explosion des données ? 
+
+1996... 
+[.reduite[.center[![](./img/altavista.png)]]](https://twitter.com/alicemazzy/status/655306196128280576?ref_src=twsrc%5Etfw)
+
+---
 
 ### L'explosion des données ? 
 
+2016... 
+
+.reduite[.center[![](./img/snowmobile.png)]]
+
+
+---
+### De la statistique à la *data science* 
+
+
+- la statistique est une relativement vieille science (développement au 18e siècle), pour aider les États (_Statistik_) à compter (les contribuables, les soldats potentiels...) mais aussi des entreprises privées (au départ, les assureurs =&gt; actuariat)
+
+- la statistique repose sur une branche des mathématiques, les probabilités, qui émerge au milieu du 17e siècle, avec Pascal et Fermat notamment.
+
+- c'est pourquoi la statistique est une discipline pratiquée par des mathématiciens, avec une importante formalisation mathématique.
+
+- la pratique de la statistique recouvre une forte dimension théorique : on part de problèmes théoriques, et de données d'illustrations, plutôt que de données et de problèmes réels. 
+
+
+---
+## Au commencement était la statistique
+
+&gt; I keep saying the sexy job in the next ten years will be statisticians. People think I’m joking, but who would’ve guessed that computer engineers would’ve been the sexy job of the 1990s?
+
+&gt; *Je dis tout le temps que le métier sexy dans les dix ans à venir sera celui de statisticien. Les gens pensent que je plaisante, mais qui aurait pu deviner que les ingénieurs informatiques auraient été le métier sexy des années 1990 ?*
+
+Hal Varian (économiste en chef, Google), _The McKinsey Quarterly_, January 2009
+
+---
+## Data science is the new statistics?
+
+&gt; I think data-scientist is a sexed up term for a statistician
+
+&gt; *Je pense que data scientist est un terme sexy pour dire statisticien*
+
+[Nate Silver](http://www.statisticsviews.com/details/feature/5133141/Nate-Silver-What-I-need-from-statisticians.html)
+
+---
+## Data science is the new statistics?
+
+[.reduite[.center[![](./img/data-science-venn-diagram.png)]]](http://www.prooffreader.com/2016/09/battle-of-data-science-venn-diagrams.html)
+
+---
+## Data science is the new statistics?
+
+La data science, comparativement à la statistique "traditionnelle", est un métier de praticien, presque de bidouilleur : elle nécessite des compétences mathématiques et statistiques, certes, mais aussi une compétence "métier" (compréhension du domaine d'application) et une solide maîtrise de l'informatique. 
 
 
 ---
 
-### De la statistique à la *data science* 
+### Changement de paradigme : le *machine learning*
+
+- statistique classique : les problèmes doivent pouvoir être résolus de manière analytique, sans puissance de calcul particulière (d'où le succès du fréquentisme)
+
+- le développement de la puissance de calcul permet de résoudre des problèmes statistiques par la simulation ([MCMC](https://fr.wikipedia.org/wiki/M%C3%A9thode_de_Monte-Carlo_par_cha%C3%AEnes_de_Markov)) : on n'a pas besoin de connaître la solution mathématique, il "suffit" de faire de nombreuses simulations aléatoires.
+
+---
+### Changement de paradigme : le *machine learning*
+
+- Fondamentalement, modélisation et machine learning ne sont pas différents, du point de vue d'un statisticien : modéliser un `\(Y\)` en fonction d'un vecteur de `\(X_i\)`
+- Une des différences principales toutefois : veut-on *prévoir* ou *comprendre/analyser* ?
+- Et donc : peut-on, veut-on interpréter les coefficients ?
+
+En pratique : le machine learning porte sur des données plus complexes que la modélisation traditionnelle, avec souvent beaucoup de valeurs manquantes.
 
 ---
 
 ### Changement de paradigme : le *machine learning*
 
 
+Apprentissage supervisé vs non-supervisé
+
+.pull-left[
+[![](./img/captcha.jpg)](https://fakecaptcha.com)
+]
+
+.pull-right[
+![](./img/house.png)
+]
+
 ---
 
 ### Ce qu'on appelle aujourd'hui l'intelligence artificielle
 
+Un terme ambigu et recouvrant des réalités socio-techniques très diverses, de la fonction Excel au modèle GPT-3 ou Dall-E en passant par des Mechanical Turks...
 
----
+Une classe de modèles importante : le *deep learning*
 
-### Algorithmes et IA 
+.reduite[![](./img/layers.png)]
 
-distinguer Algos, algos publics, IA (diagramme de Venn ?)
+
+
+
 
 ---
 
@@ -527,7 +626,14 @@ Une fois vos réponses ajoutées, revenez sur le webinaire !
 
 ### Algorithmes, IA, code source 
 
-distinguer le cas de modèles auto-apprenants et de modèles procéduraux
+
+- Un **algorithme** "est la description d'une suite d'étapes permettant d'obtenir un résultat à partir d'éléments fournis en entrée" ([CNIL](https://www.cnil.fr/fr/definition/algorithme)).
+- Cet algorithme est considéré comme un **algorithme public** (au sens de la loi pour République numérique) lorsqu'il est utilisé dans le cadre d'une mission de service public, en particuluer pour prendre une décision administrative individuelle.
+- Un algorithme peut aller de modèles procéduraux très simples à des modèles d'IA très complexes -- avec un rapport variable entre importance des règles (calcul de l'impôt) et importance des données d'entraînement (détection de la fraude fiscale) (modèles procéduraux vs modèles auto-apprenants).
+- Le **code source** désigne la manière dont un algorithme est traduit dans une suite concrète d'instructions informatiques, dans un langage informatique donné.
+
+S'agissant de modèles auto-apprenants/de *machine learning* supervisé, **l'ouverture du code source ne suffit pas à sa transparence** : il est très dépendant des données d'entraînement en amont, et se caractérise par ses *poids* (le modèle entraîné) en aval.
+
 
 ---
 
